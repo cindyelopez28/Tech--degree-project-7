@@ -12,7 +12,7 @@ class SearchBar extends Component {
   }
   render() {
     const searchStyle = {
-      width: "500px",
+      
       height: "100px",
       backgroundColor: "#F0C1FE",
       borderRadius: "500px",
