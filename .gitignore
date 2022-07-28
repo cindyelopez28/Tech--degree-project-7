@@ -125,4 +125,4 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
-/components/config.js
+/src/components/config.js
