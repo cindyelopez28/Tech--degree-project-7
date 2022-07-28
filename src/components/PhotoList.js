@@ -20,13 +20,3 @@ class PhotoList extends Component {
 
 export default PhotoList;
 
-/*
-NoPhoto.js
-Photo.js
-PhotoList.js
-Search.js
-NavBar.js
-
-searching => makes a request
-
-*/

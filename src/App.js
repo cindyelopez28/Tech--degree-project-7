@@ -24,7 +24,7 @@ class App extends Component {
 //create condition to determine what data will render 
   handleSearch = (query) => {
     fetch(
-      `https://www.flickr.com/services/rest/?method=flickr.photos.search&api_key=50a9c4560be20d649107212cad01b810&text=${query}&per_page=24&format=json&nojsoncallback=1`
+      `https://www.flickr.com/services/rest/?method=flickr.photos.search&api_key=${apiKey}&tags=${query}&per_page=24&format=json&nojsoncallback=1`
     )
       .then((response) => response.json())
       .then((data) => {
